@@ -12,8 +12,7 @@ default = ["console_error_panic_hook"]
 
 [dependencies]
 wasm-bindgen = "0.2.63"
-# doublets = { git = "https://github.com/linksplatform/Data.Doublets", branch = "rust_write.unwrap.optimized" }
-doublets = { path = "../../LinksPlatform/Data.Doublets/rust" }
+doublets = { git = "https://github.com/linksplatform/Data.Doublets", branch = "rust_write.unwrap.optimized.wasm" }
 # stdweb = "0.4.20"
 getrandom = { version = "0.2.3", features = ["js", "js-sys"] }
 instant = { version = "0.1", features = [ "wasm-bindgen", "inaccurate", "js-sys"] }
